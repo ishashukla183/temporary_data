@@ -316,43 +316,7 @@
     "action": "sell",
     "volume": 12,
     "amount": 12630.00
-  },
-  {
-    "ticker_symbol": "DIS",
-    "asset_name": "Walt Disney Co.",
-    "category": "Stock",
-    "date": "2024-08-09",
-    "action": "buy",
-    "volume": 15,
-    "amount": 2036.70
-  },
-  {
-    "ticker_symbol": "BOND005",
-    "asset_name": "Company E Bond",
-    "category": "Bond",
-    "date": "2024-08-10",
-    "action": "buy",
-    "volume": 8,
-    "amount": 8160.00
-  },
-  {
-    "ticker_symbol": "JPM",
-    "asset_name": "JPMorgan Chase & Co.",
-    "category": "Stock",
-    "date": "2024-08-11",
-    "action": "sell",
-    "volume": 25,
-    "amount": 4027.25
-  },
-  {
-    "ticker_symbol": "BOND006",
-    "asset_name": "Company F Bond",
-    "category": "Bond",
-    "date": "2024-08-12",
-    "action": "buy",
-    "volume": 6,
-    "amount": 57900.00
-  },
+  }
 ],
 "cashflowbook" : [
   {
