@@ -1,0 +1,715 @@
+{
+ "stocks": [
+  {
+    "ticker_symbol": "AAPL",
+    "average_volume": 75000000,
+    "company_name": "Apple Inc.",
+    "industry": "Technology",
+    "stock_price": 175.32,
+    "week52high": 182.94,
+    "week52low": 129.04,
+    "market_exchange": "NASDAQ"
+  },
+  {
+    "ticker_symbol": "MSFT",
+    "average_volume": 65000000,
+    "company_name": "Microsoft Corp.",
+    "industry": "Technology",
+    "stock_price": 339.45,
+    "week52high": 349.67,
+    "week52low": 250.22,
+    "market_exchange": "NASDAQ"
+  },
+  {
+    "ticker_symbol": "GOOGL",
+    "average_volume": 1400000,
+    "company_name": "Alphabet Inc.",
+    "industry": "Technology",
+    "stock_price": 1462.23,
+    "week52high": 1558.35,
+    "week52low": 1013.54,
+    "market_exchange": "NASDAQ"
+  },
+  {
+    "ticker_symbol": "AMZN",
+    "average_volume": 4000000,
+    "company_name": "Amazon.com Inc.",
+    "industry": "Consumer Discretionary",
+    "stock_price": 1265.67,
+    "week52high": 1450.57,
+    "week52low": 1012.23,
+    "market_exchange": "NASDAQ"
+  },
+  {
+    "ticker_symbol": "TSLA",
+    "average_volume": 35000000,
+    "company_name": "Tesla Inc.",
+    "industry": "Automotive",
+    "stock_price": 725.12,
+    "week52high": 780.64,
+    "week52low": 558.22,
+    "market_exchange": "NASDAQ"
+  },
+  {
+    "ticker_symbol": "FB",
+    "average_volume": 18000000,
+    "company_name": "Meta Platforms Inc.",
+    "industry": "Technology",
+    "stock_price": 270.45,
+    "week52high": 337.23,
+    "week52low": 226.18,
+    "market_exchange": "NASDAQ"
+  },
+  {
+    "ticker_symbol": "NFLX",
+    "average_volume": 9000000,
+    "company_name": "Netflix Inc.",
+    "industry": "Entertainment",
+    "stock_price": 408.21,
+    "week52high": 500.24,
+    "week52low": 340.10,
+    "market_exchange": "NASDAQ"
+  },
+  {
+    "ticker_symbol": "DIS",
+    "average_volume": 8000000,
+    "company_name": "Walt Disney Co.",
+    "industry": "Entertainment",
+    "stock_price": 135.78,
+    "week52high": 179.55,
+    "week52low": 122.35,
+    "market_exchange": "NYSE"
+  },
+  {
+    "ticker_symbol": "JPM",
+    "average_volume": 5000000,
+    "company_name": "JPMorgan Chase & Co.",
+    "industry": "Financials",
+    "stock_price": 161.09,
+    "week52high": 170.45,
+    "week52low": 123.09,
+    "market_exchange": "NYSE"
+  },
+  {
+    "ticker_symbol": "V",
+    "average_volume": 6000000,
+    "company_name": "Visa Inc.",
+    "industry": "Financials",
+    "stock_price": 249.34,
+    "week52high": 259.59,
+    "week52low": 217.83,
+    "market_exchange": "NYSE"
+  },
+  {
+    "ticker_symbol": "MA",
+    "average_volume": 4000000,
+    "company_name": "Mastercard Inc.",
+    "industry": "Financials",
+    "stock_price": 391.45,
+    "week52high": 410.82,
+    "week52low": 321.50,
+    "market_exchange": "NYSE"
+  },
+  {
+    "ticker_symbol": "BA",
+    "average_volume": 3000000,
+    "company_name": "Boeing Co.",
+    "industry": "Aerospace",
+    "stock_price": 202.45,
+    "week52high": 225.60,
+    "week52low": 143.00,
+    "market_exchange": "NYSE"
+  },
+  {
+    "ticker_symbol": "CSCO",
+    "average_volume": 22000000,
+    "company_name": "Cisco Systems Inc.",
+    "industry": "Technology",
+    "stock_price": 58.12,
+    "week52high": 64.36,
+    "week52low": 46.56,
+    "market_exchange": "NASDAQ"
+  },
+  {
+    "ticker_symbol": "IBM",
+    "average_volume": 2500000,
+    "company_name": "IBM Corp.",
+    "industry": "Technology",
+    "stock_price": 133.78,
+    "week52high": 146.00,
+    "week52low": 115.50,
+    "market_exchange": "NYSE"
+  },
+  {
+    "ticker_symbol": "PFE",
+    "average_volume": 4000000,
+    "company_name": "Pfizer Inc.",
+    "industry": "Healthcare",
+    "stock_price": 41.56,
+    "week52high": 51.86,
+    "week52low": 39.17,
+    "market_exchange": "NYSE"
+  }
+],
+"bonds" : [
+  {
+    "bond_id": "BOND001",
+    "bond_price": 101.50,
+    "coupon_rate": 3.25,
+    "credit_rating": "A",
+    "face_value": 1000,
+    "issuer": "Company A",
+    "maturity_date": "2030-05-15"
+  },
+  {
+    "bond_id": "BOND002",
+    "bond_price": 99.75,
+    "coupon_rate": 4.00,
+    "credit_rating": "AA",
+    "face_value": 1000,
+    "issuer": "Company B",
+    "maturity_date": "2028-12-01"
+  },
+  {
+    "bond_id": "BOND003",
+    "bond_price": 97.00,
+    "coupon_rate": 5.50,
+    "credit_rating": "BBB",
+    "face_value": 5000,
+    "issuer": "Company C",
+    "maturity_date": "2032-08-20"
+  },
+  {
+    "bond_id": "BOND004",
+    "bond_price": 105.25,
+    "coupon_rate": 2.75,
+    "credit_rating": "A",
+    "face_value": 2000,
+    "issuer": "Company D",
+    "maturity_date": "2025-11-10"
+  },
+  {
+    "bond_id": "BOND005",
+    "bond_price": 102.00,
+    "coupon_rate": 3.50,
+    "credit_rating": "AA",
+    "face_value": 1000,
+    "issuer": "Company E",
+    "maturity_date": "2031-03-15"
+  },
+  {
+    "bond_id": "BOND006",
+    "bond_price": 96.50,
+    "coupon_rate": 4.25,
+    "credit_rating": "BBB",
+    "face_value": 3000,
+    "issuer": "Company F",
+    "maturity_date": "2033-07-30"
+  },
+  {
+    "bond_id": "BOND007",
+    "bond_price": 100.00,
+    "coupon_rate": 3.00,
+    "credit_rating": "A",
+    "face_value": 2500,
+    "issuer": "Company G",
+    "maturity_date": "2027-09-25"
+  },
+  {
+    "bond_id": "BOND008",
+    "bond_price": 98.50,
+    "coupon_rate": 4.75,
+    "credit_rating": "AA",
+    "face_value": 1500,
+    "issuer": "Company H",
+    "maturity_date": "2034-06-10"
+  },
+  {
+    "bond_id": "BOND009",
+    "bond_price": 93.00,
+    "coupon_rate": 5.00,
+    "credit_rating": "BBB",
+    "face_value": 5000,
+    "issuer": "Company I",
+    "maturity_date": "2026-01-01"
+  },
+  {
+    "bond_id": "BOND010",
+    "bond_price": 104.75,
+    "coupon_rate": 2.50,
+    "credit_rating": "A",
+    "face_value": 1000,
+    "issuer": "Company J",
+    "maturity_date": "2029-04-15"
+  }
+],
+
+"tradebook" : [
+  {
+    "ticker_symbol": "AAPL",
+    "asset_name": "Apple Inc.",
+    "category": "Stock",
+    "date": "2024-08-01",
+    "action": "buy",
+    "volume": 50,
+    "amount": 8766.00
+  },
+  {
+    "ticker_symbol": "BOND001",
+    "asset_name": "Company A Bond",
+    "category": "Bond",
+    "date": "2024-08-02",
+    "action": "sell",
+    "volume": 10,
+    "amount": 10150.00
+  },
+  {
+    "ticker_symbol": "GOOGL",
+    "asset_name": "Alphabet Inc.",
+    "category": "Stock",
+    "date": "2024-08-03",
+    "action": "buy",
+    "volume": 20,
+    "amount": 29244.60
+  },
+  {
+    "ticker_symbol": "BOND002",
+    "asset_name": "Company B Bond",
+    "category": "Bond",
+    "date": "2024-08-04",
+    "action": "buy",
+    "volume": 5,
+    "amount": 4987.50
+  },
+  {
+    "ticker_symbol": "TSLA",
+    "asset_name": "Tesla Inc.",
+    "category": "Stock",
+    "date": "2024-08-05",
+    "action": "sell",
+    "volume": 10,
+    "amount": 7251.20
+  },
+  {
+    "ticker_symbol": "BOND003",
+    "asset_name": "Company C Bond",
+    "category": "Bond",
+    "date": "2024-08-06",
+    "action": "buy",
+    "volume": 7,
+    "amount": 67900.00
+  },
+  {
+    "ticker_symbol": "FB",
+    "asset_name": "Meta Platforms Inc.",
+    "category": "Stock",
+    "date": "2024-08-07",
+    "action": "buy",
+    "volume": 30,
+    "amount": 8113.50
+  },
+  {
+    "ticker_symbol": "BOND004",
+    "asset_name": "Company D Bond",
+    "category": "Bond",
+    "date": "2024-08-08",
+    "action": "sell",
+    "volume": 12,
+    "amount": 12630.00
+  },
+  {
+    "ticker_symbol": "DIS",
+    "asset_name": "Walt Disney Co.",
+    "category": "Stock",
+    "date": "2024-08-09",
+    "action": "buy",
+    "volume": 15,
+    "amount": 2036.70
+  },
+  {
+    "ticker_symbol": "BOND005",
+    "asset_name": "Company E Bond",
+    "category": "Bond",
+    "date": "2024-08-10",
+    "action": "buy",
+    "volume": 8,
+    "amount": 8160.00
+  },
+  {
+    "ticker_symbol": "JPM",
+    "asset_name": "JPMorgan Chase & Co.",
+    "category": "Stock",
+    "date": "2024-08-11",
+    "action": "sell",
+    "volume": 25,
+    "amount": 4027.25
+  },
+  {
+    "ticker_symbol": "BOND006",
+    "asset_name": "Company F Bond",
+    "category": "Bond",
+    "date": "2024-08-12",
+    "action": "buy",
+    "volume": 6,
+    "amount": 57900.00
+  },
+  {
+    "ticker_symbol": "MA",
+    "asset_name": "Mastercard Inc.",
+    "category": "Stock",
+    "date": "2024-08-13",
+    "action": "buy",
+    "volume": 10,
+    "amount": 3914.50
+  },
+  {
+    "ticker_symbol": "BOND007",
+    "asset_name": "Company G Bond",
+    "category": "Bond",
+    "date": "2024-08-14",
+    "action": "sell",
+    "volume": 15,
+    "amount": 37500.00
+  },
+  {
+    "ticker_symbol": "IBM",
+    "asset_name": "IBM Corp.",
+    "category": "Stock",
+    "date": "2024-08-15",
+    "action": "buy",
+    "volume": 40,
+    "amount": 5351.20
+  },
+  {
+    "ticker_symbol": "BOND008",
+    "asset_name": "Company H Bond",
+    "category": "Bond",
+    "date": "2024-08-16",
+    "action": "buy",
+    "volume": 4,
+    "amount": 39400.00
+  },
+  {
+    "ticker_symbol": "PFE",
+    "asset_name": "Pfizer Inc.",
+    "category": "Stock",
+    "date": "2024-08-17",
+    "action": "sell",
+    "volume": 50,
+    "amount": 2078.00
+  },
+  {
+    "ticker_symbol": "BOND009",
+    "asset_name": "Company I Bond",
+    "category": "Bond",
+    "date": "2024-08-18",
+    "action": "buy",
+    "volume": 9,
+    "amount": 83700.00
+  },
+  {
+    "ticker_symbol": "AAPL",
+    "asset_name": "Apple Inc.",
+    "category": "Stock",
+    "date": "2024-08-19",
+    "action": "sell",
+    "volume": 30,
+    "amount": 5260.00
+  },
+  {
+    "ticker_symbol": "BOND010",
+    "asset_name": "Company J Bond",
+    "category": "Bond",
+    "date": "2024-08-20",
+    "action": "buy",
+    "volume": 10,
+    "amount": 10475.00
+  }
+],
+"cashflowbook" : [
+  {
+    "id": "CF001",
+    "ticker_symbol": "AAPL",
+    "asset_name": "Apple Inc.",
+    "date": "2024-08-01",
+    "realized_pnl": 200.00,
+    "unrealized_pnl": 350.00
+  },
+  {
+    "id": "CF002",
+    "ticker_symbol": "BOND001",
+    "asset_name": "Company A Bond",
+    "date": "2024-08-02",
+    "realized_pnl": 150.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF003",
+    "ticker_symbol": "GOOGL",
+    "asset_name": "Alphabet Inc.",
+    "date": "2024-08-03",
+    "realized_pnl": -50.00,
+    "unrealized_pnl": 500.00
+  },
+  {
+    "id": "CF004",
+    "ticker_symbol": "BOND002",
+    "asset_name": "Company B Bond",
+    "date": "2024-08-04",
+    "realized_pnl": 75.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF005",
+    "ticker_symbol": "TSLA",
+    "asset_name": "Tesla Inc.",
+    "date": "2024-08-05",
+    "realized_pnl": 600.00,
+    "unrealized_pnl": -200.00
+  },
+  {
+    "id": "CF006",
+    "ticker_symbol": "BOND003",
+    "asset_name": "Company C Bond",
+    "date": "2024-08-06",
+    "realized_pnl": 300.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF007",
+    "ticker_symbol": "FB",
+    "asset_name": "Meta Platforms Inc.",
+    "date": "2024-08-07",
+    "realized_pnl": 150.00,
+    "unrealized_pnl": 100.00
+  },
+  {
+    "id": "CF008",
+    "ticker_symbol": "BOND004",
+    "asset_name": "Company D Bond",
+    "date": "2024-08-08",
+    "realized_pnl": -100.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF009",
+    "ticker_symbol": "DIS",
+    "asset_name": "Walt Disney Co.",
+    "date": "2024-08-09",
+    "realized_pnl": 80.00,
+    "unrealized_pnl": 60.00
+  },
+  {
+    "id": "CF010",
+    "ticker_symbol": "BOND005",
+    "asset_name": "Company E Bond",
+    "date": "2024-08-10",
+    "realized_pnl": 50.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF011",
+    "ticker_symbol": "JPM",
+    "asset_name": "JPMorgan Chase & Co.",
+    "date": "2024-08-11",
+    "realized_pnl": 300.00,
+    "unrealized_pnl": -150.00
+  },
+  {
+    "id": "CF012",
+    "ticker_symbol": "BOND006",
+    "asset_name": "Company F Bond",
+    "date": "2024-08-12",
+    "realized_pnl": -50.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF013",
+    "ticker_symbol": "MA",
+    "asset_name": "Mastercard Inc.",
+    "date": "2024-08-13",
+    "realized_pnl": 220.00,
+    "unrealized_pnl": 80.00
+  },
+  {
+    "id": "CF014",
+    "ticker_symbol": "BOND007",
+    "asset_name": "Company G Bond",
+    "date": "2024-08-14",
+    "realized_pnl": 180.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF015",
+    "ticker_symbol": "IBM",
+    "asset_name": "IBM Corp.",
+    "date": "2024-08-15",
+    "realized_pnl": 400.00,
+    "unrealized_pnl": -100.00
+  },
+  {
+    "id": "CF016",
+    "ticker_symbol": "BOND008",
+    "asset_name": "Company H Bond",
+    "date": "2024-08-16",
+    "realized_pnl": 60.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF017",
+    "ticker_symbol": "PFE",
+    "asset_name": "Pfizer Inc.",
+    "date": "2024-08-17",
+    "realized_pnl": -30.00,
+    "unrealized_pnl": 70.00
+  },
+  {
+    "id": "CF018",
+    "ticker_symbol": "AAPL",
+    "asset_name": "Apple Inc.",
+    "date": "2024-08-18",
+    "realized_pnl": -100.00,
+    "unrealized_pnl": 250.00
+  },
+  {
+    "id": "CF019",
+    "ticker_symbol": "BOND009",
+    "asset_name": "Company I Bond",
+    "date": "2024-08-19",
+    "realized_pnl": 250.00,
+    "unrealized_pnl": 0.00
+  },
+  {
+    "id": "CF020",
+    "ticker_symbol": "BOND010",
+    "asset_name": "Company J Bond",
+    "date": "2024-08-20",
+    "realized_pnl": 0.00,
+    "unrealized_pnl": 0.00
+  }
+],
+"orderbookbond" : [
+  {
+    "order_id": "ORD001",
+    "bond_id": "BOND001",
+    "asset_name": "Company A Bond",
+    "transaction_date": "2024-08-01",
+    "bond_price": 101.50,
+    "maturity_date": "2030-05-15"
+  },
+  {
+    "order_id": "ORD002",
+    "bond_id": "BOND002",
+    "asset_name": "Company B Bond",
+    "transaction_date": "2024-08-02",
+    "bond_price": 99.75,
+    "maturity_date": "2028-12-01"
+  },
+  {
+    "order_id": "ORD003",
+    "bond_id": "BOND003",
+    "asset_name": "Company C Bond",
+    "transaction_date": "2024-08-03",
+    "bond_price": 97.00,
+    "maturity_date": "2032-08-20"
+  },
+  {
+    "order_id": "ORD004",
+    "bond_id": "BOND004",
+    "asset_name": "Company D Bond",
+    "transaction_date": "2024-08-04",
+    "bond_price": 105.25,
+    "maturity_date": "2025-11-10"
+  },
+  {
+    "order_id": "ORD005",
+    "bond_id": "BOND005",
+    "asset_name": "Company E Bond",
+    "transaction_date": "2024-08-05",
+    "bond_price": 102.00,
+    "maturity_date": "2031-03-15"
+  },
+  {
+    "order_id": "ORD006",
+    "bond_id": "BOND006",
+    "asset_name": "Company F Bond",
+    "transaction_date": "2024-08-06",
+    "bond_price": 96.50,
+    "maturity_date": "2033-07-30"
+  },
+  {
+    "order_id": "ORD007",
+    "bond_id": "BOND007",
+    "asset_name": "Company G Bond",
+    "transaction_date": "2024-08-07",
+    "bond_price": 100.00,
+    "maturity_date": "2027-09-25"
+  },
+  {
+    "order_id": "ORD008",
+    "bond_id": "BOND008",
+    "asset_name": "Company H Bond",
+    "transaction_date": "2024-08-08",
+    "bond_price": 98.50,
+    "maturity_date": "2034-06-10"
+  },
+  {
+    "order_id": "ORD009",
+    "bond_id": "BOND009",
+    "asset_name": "Company I Bond",
+    "transaction_date": "2024-08-09",
+    "bond_price": 93.00,
+    "maturity_date": "2026-01-01"
+  },
+  {
+    "order_id": "ORD010",
+    "bond_id": "BOND010",
+    "asset_name": "Company J Bond",
+    "transaction_date": "2024-08-10",
+    "bond_price": 104.75,
+    "maturity_date": "2029-04-15"
+  },
+  {
+    "order_id": "ORD011",
+    "bond_id": "BOND001",
+    "asset_name": "Company A Bond",
+    "transaction_date": "2024-08-11",
+    "bond_price": 101.50,
+    "maturity_date": "2030-05-15"
+  },
+  {
+    "order_id": "ORD012",
+    "bond_id": "BOND002",
+    "asset_name": "Company B Bond",
+    "transaction_date": "2024-08-12",
+    "bond_price": 99.75,
+    "maturity_date": "2028-12-01"
+  },
+  {
+    "order_id": "ORD013",
+    "bond_id": "BOND003",
+    "asset_name": "Company C Bond",
+    "transaction_date": "2024-08-13",
+    "bond_price": 97.00,
+    "maturity_date": "2032-08-20"
+  },
+  {
+    "order_id": "ORD014",
+    "bond_id": "BOND004",
+    "asset_name": "Company D Bond",
+    "transaction_date": "2024-08-14",
+    "bond_price": 105.25,
+    "maturity_date": "2025-11-10"
+  },
+  {
+    "order_id": "ORD015",
+    "bond_id": "BOND005",
+    "asset_name": "Company E Bond",
+    "transaction_date": "2024-08-15",
+    "bond_price": 102.00,
+    "maturity_date": "2031-03-15"
+  }
+]
+   
+
+}  
