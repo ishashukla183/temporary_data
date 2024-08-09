@@ -353,69 +353,6 @@
     "volume": 6,
     "amount": 57900.00
   },
-  {
-    "ticker_symbol": "MA",
-    "asset_name": "Mastercard Inc.",
-    "category": "Stock",
-    "date": "2024-08-13",
-    "action": "buy",
-    "volume": 10,
-    "amount": 3914.50
-  },
-  {
-    "ticker_symbol": "BOND007",
-    "asset_name": "Company G Bond",
-    "category": "Bond",
-    "date": "2024-08-14",
-    "action": "sell",
-    "volume": 15,
-    "amount": 37500.00
-  },
-  {
-    "ticker_symbol": "IBM",
-    "asset_name": "IBM Corp.",
-    "category": "Stock",
-    "date": "2024-08-15",
-    "action": "buy",
-    "volume": 40,
-    "amount": 5351.20
-  },
-  {
-    "ticker_symbol": "BOND008",
-    "asset_name": "Company H Bond",
-    "category": "Bond",
-    "date": "2024-08-16",
-    "action": "buy",
-    "volume": 4,
-    "amount": 39400.00
-  },
-  {
-    "ticker_symbol": "PFE",
-    "asset_name": "Pfizer Inc.",
-    "category": "Stock",
-    "date": "2024-08-17",
-    "action": "sell",
-    "volume": 50,
-    "amount": 2078.00
-  },
-  {
-    "ticker_symbol": "BOND009",
-    "asset_name": "Company I Bond",
-    "category": "Bond",
-    "date": "2024-08-18",
-    "action": "buy",
-    "volume": 9,
-    "amount": 83700.00
-  },
-  {
-    "ticker_symbol": "AAPL",
-    "asset_name": "Apple Inc.",
-    "category": "Stock",
-    "date": "2024-08-19",
-    "action": "sell",
-    "volume": 30,
-    "amount": 5260.00
-  },
 ],
 "cashflowbook" : [
   {
@@ -480,54 +417,6 @@
     "asset_name": "Company D Bond",
     "date": "2024-08-08",
     "realized_pnl": -100.00,
-    "unrealized_pnl": 0.00
-  },
-  {
-    "id": "CF009",
-    "ticker_symbol": "DIS",
-    "asset_name": "Walt Disney Co.",
-    "date": "2024-08-09",
-    "realized_pnl": 80.00,
-    "unrealized_pnl": 60.00
-  },
-  {
-    "id": "CF010",
-    "ticker_symbol": "BOND005",
-    "asset_name": "Company E Bond",
-    "date": "2024-08-10",
-    "realized_pnl": 50.00,
-    "unrealized_pnl": 0.00
-  },
-  {
-    "id": "CF011",
-    "ticker_symbol": "JPM",
-    "asset_name": "JPMorgan Chase & Co.",
-    "date": "2024-08-11",
-    "realized_pnl": 300.00,
-    "unrealized_pnl": -150.00
-  },
-  {
-    "id": "CF012",
-    "ticker_symbol": "BOND006",
-    "asset_name": "Company F Bond",
-    "date": "2024-08-12",
-    "realized_pnl": -50.00,
-    "unrealized_pnl": 0.00
-  },
-  {
-    "id": "CF013",
-    "ticker_symbol": "MA",
-    "asset_name": "Mastercard Inc.",
-    "date": "2024-08-13",
-    "realized_pnl": 220.00,
-    "unrealized_pnl": 80.00
-  },
-  {
-    "id": "CF014",
-    "ticker_symbol": "BOND007",
-    "asset_name": "Company G Bond",
-    "date": "2024-08-14",
-    "realized_pnl": 180.00,
     "unrealized_pnl": 0.00
   }
 ],
@@ -596,21 +485,5 @@
     "bond_price": 98.50,
     "maturity_date": "2034-06-10"
   },
-  {
-    "order_id": "ORD009",
-    "bond_id": "BOND009",
-    "asset_name": "Company I Bond",
-    "transaction_date": "2024-08-09",
-    "bond_price": 93.00,
-    "maturity_date": "2026-01-01"
-  },
-  {
-    "order_id": "ORD010",
-    "bond_id": "BOND010",
-    "asset_name": "Company J Bond",
-    "transaction_date": "2024-08-10",
-    "bond_price": 104.75,
-    "maturity_date": "2029-04-15"
-  }
 ]
 }  
