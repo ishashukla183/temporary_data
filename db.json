@@ -416,15 +416,6 @@
     "volume": 30,
     "amount": 5260.00
   },
-  {
-    "ticker_symbol": "BOND010",
-    "asset_name": "Company J Bond",
-    "category": "Bond",
-    "date": "2024-08-20",
-    "action": "buy",
-    "volume": 10,
-    "amount": 10475.00
-  }
 ],
 "cashflowbook" : [
   {
@@ -538,54 +529,6 @@
     "date": "2024-08-14",
     "realized_pnl": 180.00,
     "unrealized_pnl": 0.00
-  },
-  {
-    "id": "CF015",
-    "ticker_symbol": "IBM",
-    "asset_name": "IBM Corp.",
-    "date": "2024-08-15",
-    "realized_pnl": 400.00,
-    "unrealized_pnl": -100.00
-  },
-  {
-    "id": "CF016",
-    "ticker_symbol": "BOND008",
-    "asset_name": "Company H Bond",
-    "date": "2024-08-16",
-    "realized_pnl": 60.00,
-    "unrealized_pnl": 0.00
-  },
-  {
-    "id": "CF017",
-    "ticker_symbol": "PFE",
-    "asset_name": "Pfizer Inc.",
-    "date": "2024-08-17",
-    "realized_pnl": -30.00,
-    "unrealized_pnl": 70.00
-  },
-  {
-    "id": "CF018",
-    "ticker_symbol": "AAPL",
-    "asset_name": "Apple Inc.",
-    "date": "2024-08-18",
-    "realized_pnl": -100.00,
-    "unrealized_pnl": 250.00
-  },
-  {
-    "id": "CF019",
-    "ticker_symbol": "BOND009",
-    "asset_name": "Company I Bond",
-    "date": "2024-08-19",
-    "realized_pnl": 250.00,
-    "unrealized_pnl": 0.00
-  },
-  {
-    "id": "CF020",
-    "ticker_symbol": "BOND010",
-    "asset_name": "Company J Bond",
-    "date": "2024-08-20",
-    "realized_pnl": 0.00,
-    "unrealized_pnl": 0.00
   }
 ],
 "orderbookbond" : [
@@ -668,48 +611,6 @@
     "transaction_date": "2024-08-10",
     "bond_price": 104.75,
     "maturity_date": "2029-04-15"
-  },
-  {
-    "order_id": "ORD011",
-    "bond_id": "BOND001",
-    "asset_name": "Company A Bond",
-    "transaction_date": "2024-08-11",
-    "bond_price": 101.50,
-    "maturity_date": "2030-05-15"
-  },
-  {
-    "order_id": "ORD012",
-    "bond_id": "BOND002",
-    "asset_name": "Company B Bond",
-    "transaction_date": "2024-08-12",
-    "bond_price": 99.75,
-    "maturity_date": "2028-12-01"
-  },
-  {
-    "order_id": "ORD013",
-    "bond_id": "BOND003",
-    "asset_name": "Company C Bond",
-    "transaction_date": "2024-08-13",
-    "bond_price": 97.00,
-    "maturity_date": "2032-08-20"
-  },
-  {
-    "order_id": "ORD014",
-    "bond_id": "BOND004",
-    "asset_name": "Company D Bond",
-    "transaction_date": "2024-08-14",
-    "bond_price": 105.25,
-    "maturity_date": "2025-11-10"
-  },
-  {
-    "order_id": "ORD015",
-    "bond_id": "BOND005",
-    "asset_name": "Company E Bond",
-    "transaction_date": "2024-08-15",
-    "bond_price": 102.00,
-    "maturity_date": "2031-03-15"
   }
 ]
-   
-
 }  
