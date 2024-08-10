@@ -2,24 +2,16 @@
   "stocks": [
     {
       "id": 1,
-      "average_volume": 1250000,
       "company_name": "Tech Innovators Inc.",
       "industry": "Technology",
       "market_exchange": "NASDAQ",
-      "stock_price": 150.25,
-      "week52high": 180.50,
-      "week52low": 120.75,
       "current_price": 155.30
     },
     {
       "id": 2,
-      "average_volume": 850000,
       "company_name": "Green Energy Corp.",
       "industry": "Energy",
       "market_exchange": "NYSE",
-      "stock_price": 95.75,
-      "week52high": 105.00,
-      "week52low": 85.30,
       "current_price": 92.50
     }
   ],
@@ -29,20 +21,14 @@
       "bond_price": 102.5,
       "coupon_rate": 5.25,
       "credit_rating": "AAA",
-      "face_value": 1000,
-      "maturity_date": "2028-07-01",
-      "maturity_amount": 1050,
-      "issuer": "U.S. Treasury"
+      "maturity_date": "2028-07-01"
     },
     {
       "id": 2,
       "bond_price": 98.75,
       "coupon_rate": 4.5,
       "credit_rating": "AA",
-      "face_value": 1000,
-      "maturity_date": "2025-12-15",
-      "maturity_amount": 1020,
-      "issuer": "Corporate XYZ"
+      "maturity_date": "2025-12-15"
     }
   ],
   "orderbookstock": [
@@ -50,18 +36,14 @@
       "order_id": 101,
       "ticker_symbol": "TIN",
       "trade_date": "2023-08-01",
-      "asset_name": "Tech Innovators Inc.",
       "volume": 100,
-      "transaction_date": "2023-08-02",
       "bought_price": 150.00
     },
     {
       "order_id": 102,
       "ticker_symbol": "GEC",
       "trade_date": "2023-08-03",
-      "asset_name": "Green Energy Corp.",
       "volume": 50,
-      "transaction_date": "2023-08-04",
       "bought_price": 94.00
     }
   ],
@@ -70,8 +52,6 @@
       "order_id": 201,
       "ticker_symbol": "US10Y",
       "trade_date": "2023-08-01",
-      "asset_name": "U.S. Treasury 10Y",
-      "transaction_date": "2023-08-02",
       "bond_price": 102.50,
       "maturity_date": "2028-07-01"
     },
@@ -79,8 +59,6 @@
       "order_id": 202,
       "ticker_symbol": "CXYZ2025",
       "trade_date": "2023-08-05",
-      "asset_name": "Corporate XYZ 2025",
-      "transaction_date": "2023-08-06",
       "bond_price": 98.75,
       "maturity_date": "2025-12-15"
     }
@@ -89,42 +67,18 @@
     {
       "id": 301,
       "ticker_symbol": "TIN",
-      "asset_name": "Tech Innovators Inc.",
       "category": "Stock",
       "date": "2023-08-02",
       "action": "BUY",
-      "volume": 100,
       "amount": 15000.00
     },
     {
       "id": 302,
       "ticker_symbol": "GEC",
-      "asset_name": "Green Energy Corp.",
       "category": "Stock",
       "date": "2023-08-04",
       "action": "BUY",
-      "volume": 50,
       "amount": 4700.00
-    },
-    {
-      "id": 303,
-      "ticker_symbol": "US10Y",
-      "asset_name": "U.S. Treasury 10Y",
-      "category": "Bond",
-      "date": "2023-08-02",
-      "action": "BUY",
-      "volume": 1,
-      "amount": 1025.00
-    },
-    {
-      "id": 304,
-      "ticker_symbol": "CXYZ2025",
-      "asset_name": "Corporate XYZ 2025",
-      "category": "Bond",
-      "date": "2023-08-06",
-      "action": "BUY",
-      "volume": 1,
-      "amount": 987.50
     }
   ],
   "cashflowbook": [
@@ -132,7 +86,6 @@
       "id": 401,
       "ticker_symbol": "TIN",
       "date": "2023-08-10",
-      "asset_name": "Tech Innovators Inc.",
       "realized_pnl": 500.00,
       "unrealized_pnl": 530.00
     },
@@ -140,25 +93,8 @@
       "id": 402,
       "ticker_symbol": "GEC",
       "date": "2023-08-11",
-      "asset_name": "Green Energy Corp.",
       "realized_pnl": -200.00,
       "unrealized_pnl": -150.00
-    },
-    {
-      "id": 403,
-      "ticker_symbol": "US10Y",
-      "date": "2023-08-12",
-      "asset_name": "U.S. Treasury 10Y",
-      "realized_pnl": 0.00,
-      "unrealized_pnl": 25.00
-    },
-    {
-      "id": 404,
-      "ticker_symbol": "CXYZ2025",
-      "date": "2023-08-13",
-      "asset_name": "Corporate XYZ 2025",
-      "realized_pnl": -12.50,
-      "unrealized_pnl": 10.00
     }
   ]
 }
